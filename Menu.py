@@ -5,9 +5,9 @@ from Funciones import *
 pygame.init()
 lista_botones = crear_botones_menu()
 fondo_pantalla = pygame.transform.scale(pygame.image.load("menu_principal.jpg"),PANTALLA)
-pygame.mixer.init()
-pygame.mixer.music.load("club_penguin.mp3")
-pygame.mixer.music.play(-1)
+#pygame.mixer.init()
+#pygame.mixer.music.load("club_penguin.mp3")
+#pygame.mixer.music.play(-1)
 
 def mostrar_menu(pantlla:pygame.Surface,cola_eventos:list[pygame.event.Event]) -> str:
     retorno = "menu"
